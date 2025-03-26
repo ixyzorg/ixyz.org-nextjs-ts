@@ -1,7 +1,7 @@
 const Page = () => {
   return (
     <>
-      <div>home</div>
+      <div className="border-2 bg-amber-200 fill-orange-50">home</div>
     </>
   )
 }

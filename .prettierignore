@@ -1,0 +1,30 @@
+# 忽略 node_modules
+node_modules
+
+# 忽略构建产物
+dist
+out
+build
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 忽略 Git 相关文件
+.git
+
+# 忽略 package 管理文件
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# 忽略日志和缓存
+*.log
+.npm
+.pnp
+.pnp.js
+
+# 忽略特定的配置文件
+.eslintcache
+coverage
