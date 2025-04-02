@@ -1,7 +1,9 @@
+import INavBar from '@/components/INavBar'
 const Page = () => {
   return (
     <>
-      <div className="border-2 bg-amber-200 fill-orange-50">home</div>
+      <INavBar />
+      <div className="h-[9900px] bg-pink-100">内容</div>
     </>
   )
 }

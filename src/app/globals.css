@@ -3,11 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --nav-height: 64px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-default-brown: #ef9483;
+  --spacing-nav: var(--nav-height);
 }
 
 @media (prefers-color-scheme: dark) {
